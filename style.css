@@ -1,0 +1,64 @@
+
+/* styles */
+
+ul,li,a{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+header{
+    background-color: #F85559;
+    border-radius: 600px;
+    padding: 32px 50px 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+/* 
+
+justify-content,
+align-items this is 
+applicable only for display flex
+
+*/
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+input{
+    border: none;
+}
+
+.input-section{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 16px 30px;
+}
+
+.pic-holder{
+    text-align: center;
+}
+.text-wrap a{
+    background-color: #F85559;
+}
+
+
+/* [[padding
+    top
+    right
+    bottom
+    left
+
+*/
